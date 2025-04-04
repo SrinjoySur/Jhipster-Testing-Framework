@@ -1,0 +1,5 @@
+com\epam\ui\tests\BankAccountTests.class
+com\epam\ui\dataproviders\LoginDataProvider.class
+com\epam\ui\tests\LoginTest.class
+com\epam\ui\listeners\TestExecutionListener.class
+com\epam\ui\basetest\BaseTest.class

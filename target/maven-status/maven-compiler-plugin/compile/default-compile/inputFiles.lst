@@ -1,6 +1,10 @@
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\basepages\BasePage.java
+C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\constants\ConfigProvider.java
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\exceptions\DriverNotFoundException.java
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\factories\BrowserType.java
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\factories\DriverFactory.java
+C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\pages\BankAccountPage.java
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\pages\HomePage.java
+C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\pages\Jhipster_Logged_In_HomePage.java
+C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\pages\LoginPage.java
 C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\main\java\com\epam\ui\utils\CommonUtils.java

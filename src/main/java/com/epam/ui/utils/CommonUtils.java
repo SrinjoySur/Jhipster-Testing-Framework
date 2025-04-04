@@ -17,6 +17,7 @@ public class CommonUtils {
     public static String getTitle(WebDriver driver){
         return driver.getTitle();
     }
+    public static String getText(WebElement element){ return element.getText();}
     public static String getCurrentUrl(WebDriver driver){
         return driver.getCurrentUrl();
     }

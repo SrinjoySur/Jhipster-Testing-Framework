@@ -8,13 +8,51 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverFactory {
-    public static WebDriver createDriver(BrowserType browserType){
-        switch (browserType){
-            case EDGE: return new EdgeDriver();
-            case CHROME: return new ChromeDriver();
-            case SAFARI: return new SafariDriver();
-            case FIREFOX: return new FirefoxDriver();
-            default: throw new DriverNotFoundException("No Such Driver Available");
+    private static volatile DriverFactory factory;
+    private static final ThreadLocal<WebDriver> local = new ThreadLocal<>();
+    private DriverFactory(){}
+    private void setDriver(BrowserType browser) {
+        switch ((browser)) {
+            case CHROME:
+                local.set(new ChromeDriver());
+                break;
+            case FIREFOX:
+                local.set(new FirefoxDriver());
+                break;
+            case EDGE:
+                local.set(new EdgeDriver());
+                break;
+            case SAFARI:
+                local.set(new SafariDriver());
+                break;
+            default:
+                throw new DriverNotFoundException("Invalid browser name: " + browser);
+        }
+    }
+
+    public WebDriver getDriver() {
+        return local.get();
+    }
+
+    public static DriverFactory getInstance(BrowserType browser) {
+        if (factory == null) {
+            synchronized (DriverFactory.class) {
+                if (factory == null) {
+                    factory = new DriverFactory();
+                }
+            }
+        }
+        if (local.get() == null) {
+            factory.setDriver(browser);
+        }
+        return factory;
+    }
+
+    public void quitDriver() {
+        WebDriver driver = local.get();
+        if (driver != null) {
+            driver.quit();
+            local.remove();
         }
     }
 }
