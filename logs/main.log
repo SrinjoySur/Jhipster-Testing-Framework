@@ -1,0 +1,16 @@
+{"@timestamp":"2025-04-03T07:44:13.357Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T07:44:13.947Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T07:44:14.034Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T07:44:15.068Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:05:28.548Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:05:29.179Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:05:29.267Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:05:30.780Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:06:16.679Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:06:17.330Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:06:17.407Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:06:21.551Z","ecs.version":"1.2.0","log.level":"ERROR","message":"Login Page Test Failed Due To Exception","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:46:23.768Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:46:24.368Z","ecs.version":"1.2.0","log.level":"INFO","message":"HomePage Test Successful","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:46:24.454Z","ecs.version":"1.2.0","log.level":"INFO","message":"Login Page Test Started","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
+{"@timestamp":"2025-04-03T10:46:31.679Z","ecs.version":"1.2.0","log.level":"ERROR","message":"Login Page Test Failed Due To Exception","process.thread.name":"main","log.logger":"com.epam.ui.basetest.BaseTest"}
