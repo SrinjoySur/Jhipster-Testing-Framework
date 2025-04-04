@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverHook {
     protected WebDriver driver;
-    TestCon
+
     @BeforeAll
     public void before(){
         driver=new ChromeDriver();
