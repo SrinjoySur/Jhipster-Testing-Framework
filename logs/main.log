@@ -1,0 +1,32 @@
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
