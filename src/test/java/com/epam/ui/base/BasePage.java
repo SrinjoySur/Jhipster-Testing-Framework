@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static com.epam.ui.utils.CommonUtils.getTitle;
+import static com.epam.utils.WebDriverUtils.getTitle;
 
 public abstract class BasePage {
     protected WebDriver driver;
