@@ -1,5 +1,7 @@
 package com.epam.ui.stepdefinitions;
 
+import com.epam.hooks.WebDriverHook;
+import com.epam.ui.pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,13 +16,12 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class LoginTest {
-    WebDriver driver;
+    private final WebDriver driver=WebDriverHook.getDriver();
+    private HomePage homePage;
     @Given("User navigates to Login Page")
     public void userNavigatesToLoginPage() {
-        driver=new ChromeDriver();
-        driver.get("http://localhost:9000/");
-        driver.manage().window().maximize();
-        driver.findElement(By.className("alert-link")).click();
+        homePage=new HomePage(driver);
+        homePage.clickSignIn();
     }
 
 

@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 @CucumberOptions(
         features = {"src/test/resources/features"},
-        glue = {"com.epam.ui.stepdefinitions"},
+        glue = {"com.epam.ui.stepdefinitions","com.epam.hooks"},
         plugin = {"pretty", "html:target/cucumber","html:target/cucumber-reports.html"}
 )
 public class LoginRunner extends AbstractTestNGCucumberTests {
