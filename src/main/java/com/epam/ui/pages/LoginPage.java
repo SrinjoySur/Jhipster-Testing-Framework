@@ -1,7 +1,6 @@
 package com.epam.ui.pages;
 
 import com.epam.ui.basepages.BasePage;
-import com.epam.ui.factories.BrowserType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
