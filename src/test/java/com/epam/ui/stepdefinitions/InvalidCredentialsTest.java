@@ -9,27 +9,18 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class LoginTest {
-    private final WebDriver driver=WebDriverHook.getDriver();
+public class InvalidCredentialsTest {
+    private final WebDriver driver= WebDriverHook.getDriver();
     private LoginPage loginPage;
-    @Given("User navigates to Login Page")
+    @Given("User with invalid Credentials navigates to Login Page")
     public void userNavigatesToLoginPage() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
     }
-
-
-    @When("User enters Username {string}, Password {string} and RememberMe {string}")
-    public void userEntersUsernamePasswordAndRememberMe(String username, String password, String rememberMe) {
+    @When("User enters invalid Username {string}, invalid Password {string} and RememberMe {string}")
+    public void userEntersInvalidUsernameInvalidPasswordAndRememberMe(String username, String password, String rememberMe) {
         loginPage=new LoginPage(driver);
         loginPage.login(username,password, Boolean.valueOf(rememberMe));
-    }
-
-    @Then("Page Title After Successfully Login In will be {string}")
-    public void pageTitleAfterSuccessfullyLoginInWillBe(String title) {
-        String actual=loginPage.verifyTitle();
-        Assert.assertEquals(actual,title);
-        driver.quit();
     }
     @Then("Page will display message {string}")
     public void pageWillDisplayMessage(String message) {
