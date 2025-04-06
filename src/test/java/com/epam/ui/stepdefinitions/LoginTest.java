@@ -11,11 +11,10 @@ import org.testng.Assert;
 
 public class LoginTest {
     private final WebDriver driver=WebDriverHook.getDriver();
-    private HomePage homePage;
     private LoginPage loginPage;
     @Given("User navigates to Login Page")
     public void userNavigatesToLoginPage() {
-        homePage=new HomePage(driver);
+        HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
     }
 
@@ -32,11 +31,9 @@ public class LoginTest {
         Assert.assertEquals(actual,title);
         driver.quit();
     }
-
     @Then("Page will display message {string}")
     public void pageWillDisplayMessage(String message) {
-        Assert.assertEquals("",message);
+        String actual=loginPage.invalidMessage();
+        Assert.assertEquals(actual,message);
     }
-
-
 }

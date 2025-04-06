@@ -14,7 +14,8 @@ public class LoginPage extends BasePage {
     private final By passWord=By.id("password");
     private final By rememberMe=By.id("rememberMe");
     private final By submitButton= By.cssSelector("button[type='submit']");
-    public WebDriver login(String username,String password,Boolean rememberMe){
+    private final By failed=By.tagName("strong");
+    public void login(String username, String password, Boolean rememberMe){
         WebElement user=findWebElement(getDriver(),userName);
         WebElement pass=findWebElement(getDriver(),passWord);
         WebElement submit=findWebElement(getDriver(),submitButton);
@@ -25,7 +26,9 @@ public class LoginPage extends BasePage {
             click(rememberMeCheckbox);
         }
         click(submit);
-        return getDriver();
+    }
+    public String invalidMessage(){
+        return findWebElement(getDriver(),failed).getText();
     }
     @Override
     public String verifyTitle(){

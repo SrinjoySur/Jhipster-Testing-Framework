@@ -1,6 +1,7 @@
 package com.epam.ui.factories;
 
 import com.epam.exceptions.DriverNotFoundException;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,15 +15,19 @@ public class DriverFactory {
     private void setDriver(BrowserType browser) {
         switch ((browser)) {
             case CHROME:
+                WebDriverManager.chromedriver().setup();
                 local.set(new ChromeDriver());
                 break;
             case FIREFOX:
+                WebDriverManager.firefoxdriver().setup();
                 local.set(new FirefoxDriver());
                 break;
             case EDGE:
+                WebDriverManager.edgedriver().setup();
                 local.set(new EdgeDriver());
                 break;
             case SAFARI:
+                WebDriverManager.safaridriver().setup();
                 local.set(new SafariDriver());
                 break;
             default:
