@@ -11,11 +11,11 @@ import org.testng.annotations.*;
         plugin = {"pretty", "html:target/cucumber","html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 )
 public class UiRunner extends AbstractTestNGCucumberTests {
-//    private BrowserType browser;
-//    @BeforeSuite
-//    @Parameters({"browser"})
-//    void setBrowser(@Optional(value="CHROME") BrowserType browser){
-//        this.browser=browser;
+//    BrowserType browser;
+//    @BeforeClass
+//    @Parameters({"browserType"})
+//    void setBrowser(BrowserType browserType){
+//        browser=browserType;
 //    }
 //    public BrowserType getBrowser() {
 //        return browser;

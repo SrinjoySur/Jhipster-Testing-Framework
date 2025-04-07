@@ -14,7 +14,6 @@ com\epam\api\pojos\BankAccount$BankAccountBuilder.class
 com\epam\runners\UiRunner.class
 com\epam\ui\factories\DriverFactory.class
 com\epam\api\requestspecs\RequestSpec.class
-com\epam\api\pojos\AccManagement$AccManagementBuilder.class
 com\epam\api\pojos\Authenticate$AuthenticateBuilder.class
 com\epam\ui\factories\BrowserType.class
 com\epam\api\pojos\Authenticate.class

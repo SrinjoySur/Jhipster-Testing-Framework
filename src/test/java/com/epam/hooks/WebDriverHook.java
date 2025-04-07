@@ -3,22 +3,21 @@ package com.epam.hooks;
 import com.epam.runners.UiRunner;
 import com.epam.ui.factories.BrowserType;
 import com.epam.ui.factories.DriverFactory;
+import com.epam.utils.ConfigReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
 public class WebDriverHook {
     private static WebDriver driver;
-    UiRunner runner=new UiRunner();
-    DriverFactory driverFactory=DriverFactory.getInstance(BrowserType.CHROME);
+    ConfigReader configReader=ConfigReader.getInstance();
+    DriverFactory driverFactory;
     @Before
-//    @Parameters({"browser"})
     public void before(){
-//        driverFactory=DriverFactory.getInstance(browser);
+        BrowserType browserType=BrowserType.valueOf(configReader.getProperty("browser").toUpperCase());
+        driverFactory=DriverFactory.getInstance(browserType);
         driver= driverFactory.getDriver();
         driver.get("http://localhost:9000/");
         driver.manage().window().maximize();
