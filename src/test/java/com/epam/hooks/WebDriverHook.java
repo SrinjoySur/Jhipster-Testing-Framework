@@ -6,14 +6,17 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
 public class WebDriverHook {
     private static WebDriver driver;
-    DriverFactory driverFactory=DriverFactory.getInstance(BrowserType.CHROME);
+    DriverFactory driverFactory;
     @Before
-    public void before(){
+    @Parameters({"browser"})
+    public void before(BrowserType browser){
+        driverFactory=DriverFactory.getInstance(browser);
         driver= driverFactory.getDriver();
         driver.get("http://localhost:9000/");
         driver.manage().window().maximize();
