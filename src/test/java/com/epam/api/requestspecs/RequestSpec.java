@@ -6,8 +6,8 @@ import io.restassured.specification.RequestSpecification;
 
 public class RequestSpec {
     RequestSpecBuilder requestSpecBuilder=new RequestSpecBuilder();
-    public RequestSpecification get(String BaseUri,String token){
-        return requestSpecBuilder.setBaseUri(BaseUri).addHeader("Authorization","Bearer "+token).build();
+    public RequestSpecification get(String BaseUri){
+        return requestSpecBuilder.setBaseUri(BaseUri).build();
     }
     public RequestSpecification post(String BaseUri){
         return requestSpecBuilder.setBaseUri(BaseUri).setContentType(ContentType.JSON).addHeader("accept","*/*").build();
