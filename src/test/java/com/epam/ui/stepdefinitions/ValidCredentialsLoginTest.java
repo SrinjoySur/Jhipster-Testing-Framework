@@ -9,7 +9,6 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-@Test(priority = 1)
 public class ValidCredentialsLoginTest {
     private final WebDriver driver=WebDriverHook.getDriver();
     private LoginPage loginPage;

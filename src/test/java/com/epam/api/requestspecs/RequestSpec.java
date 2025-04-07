@@ -6,22 +6,22 @@ import io.restassured.specification.RequestSpecification;
 
 public class RequestSpec {
     RequestSpecBuilder requestSpecBuilder=new RequestSpecBuilder();
-    protected RequestSpecification get(String BaseUri,String token){
-        return requestSpecBuilder.setBaseUri(BaseUri).addHeader("accept","*/*").addHeader("Authorization","Bearer "+token).build();
+    public RequestSpecification get(String BaseUri,String token){
+        return requestSpecBuilder.setBaseUri(BaseUri).addHeader("Authorization","Bearer "+token).build();
     }
-    protected RequestSpecification post(String BaseUri){
+    public RequestSpecification post(String BaseUri){
         return requestSpecBuilder.setBaseUri(BaseUri).setContentType(ContentType.JSON).addHeader("accept","*/*").build();
     }
-    protected RequestSpecification post(String BaseUri, String token){
+    public RequestSpecification post(String BaseUri, String token){
         return requestSpecBuilder.setBaseUri(BaseUri).addHeader("accept","*/*").addHeader("Authorization","Bearer "+token).build();
     }
-    protected RequestSpecification put(String BaseUri,String token){
+    public RequestSpecification put(String BaseUri,String token){
         return requestSpecBuilder.setBaseUri(BaseUri).addHeader("accept","*/*").addHeader("Authorization","Bearer "+token).build();
     }
-    protected RequestSpecification patch(String BaseUri,String token){
+    public RequestSpecification patch(String BaseUri,String token){
         return requestSpecBuilder.setBaseUri(BaseUri).addHeader("accept","*/*").addHeader("Authorization","Bearer "+token).build();
     }
-    protected RequestSpecification delete(String BaseUri,String token){
+    public RequestSpecification delete(String BaseUri,String token){
         return requestSpecBuilder.setBaseUri(BaseUri).addHeader("accept","*/*").addHeader("Authorization","Bearer "+token).build();
     }
 }

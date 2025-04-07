@@ -1,4 +1,4 @@
-package com.epam.constants;
+package com.epam.jdbc;
 
 import java.sql.*;
 
