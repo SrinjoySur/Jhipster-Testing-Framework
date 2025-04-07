@@ -1,5 +1,6 @@
 package com.epam.hooks;
 
+import com.epam.runners.UiRunner;
 import com.epam.ui.factories.BrowserType;
 import com.epam.ui.factories.DriverFactory;
 import io.cucumber.java.After;
@@ -12,11 +13,12 @@ import java.time.Duration;
 
 public class WebDriverHook {
     private static WebDriver driver;
-    DriverFactory driverFactory;
+    UiRunner runner=new UiRunner();
+    DriverFactory driverFactory=DriverFactory.getInstance(BrowserType.CHROME);
     @Before
-    @Parameters({"browser"})
-    public void before(BrowserType browser){
-        driverFactory=DriverFactory.getInstance(browser);
+//    @Parameters({"browser"})
+    public void before(){
+//        driverFactory=DriverFactory.getInstance(browser);
         driver= driverFactory.getDriver();
         driver.get("http://localhost:9000/");
         driver.manage().window().maximize();
