@@ -1,5 +1,6 @@
 package com.epam.jhipstertap.ui.base;
 
+import lombok.Getter;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -11,14 +12,12 @@ import java.time.Duration;
 import static com.epam.jhipstertap.utils.WebDriverUtils.getTitle;
 
 public abstract class BasePage {
+    @Getter
     protected WebDriver driver;
     protected WebDriverWait wait;
 
     protected BasePage(WebDriver driver){
         this.driver=driver;
-    }
-    public WebDriver getDriver() {
-        return driver;
     }
     public void getUrlDriver(String url){
         getDriver().get(url);
