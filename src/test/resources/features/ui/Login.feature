@@ -1,4 +1,7 @@
+@allure.label.epic:Login
 Feature: Login Action
+  @allure.label.suite:Valid_Login
+  @allure.label.subSuite:SomeoneLoggedIn
   Scenario Template: Successful Login with Valid Credentials
     Given User with valid Credentials navigates to Login Page
     When User enters valid Username "<username>", valid Password "<password>" and RememberMe "<rememberMe>"
@@ -9,7 +12,8 @@ Feature: Login Action
     | user     | user     | true      |
     | admin    | admin    | false      |
     | user     | user     | false      |
-
+    @allure.label.suite:Invalid_Login
+    @allure.label.subSuite:LoginFailed
     Scenario Template:Restrict Login to Invalid Credentials
       Given User with invalid Credentials navigates to Login Page
       When User enters invalid Username "<username>", invalid Password "<password>" and RememberMe "<rememberMe>"

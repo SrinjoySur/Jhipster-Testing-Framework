@@ -3,7 +3,7 @@
 <suite name="Jhipster-Sample-App-Test-Suite">
     <test name="Smoke Test">
         <classes>
-            <class name="com.epam.runners.UiRunner"/>
+            <class name="com.epam.jhipstertap.runners.UiRunner"/>
             <parameter name="browserType" value="CHROME"/>
         </classes>
     </test>
