@@ -32,6 +32,9 @@ public class ConfigReader {
         }
         return configReader;
     }
+    public void setBrowser(String browser) {
+        ConfigReader.properties.setProperty("browser",browser);
+    }
 
     public String getProperty(String key){
         return properties.getProperty(key);

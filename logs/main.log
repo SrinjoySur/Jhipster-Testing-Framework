@@ -1284,3 +1284,140 @@ Using chromedriver 135.0.7049.42 (resolved driver for Chrome 135)
 Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.42\chromedriver.exe
 Using chromedriver 135.0.7049.42 (resolved driver for Chrome 135)
 Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.42\chromedriver.exe
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+Using chromedriver 135.0.7049.84 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe
+Using chromedriver 135.0.7049.84 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe
+[TestNG] Running:
+  C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\test\resources\testng.xml
+
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+User navigation to login page started
+User navigation to login page complete
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+Using chromedriver 135.0.7049.95 (resolved driver for Chrome 135)
+Exporting webdriver.chrome.driver as C:\Users\srinjoy_sur\.cache\selenium\chromedriver\win64\135.0.7049.95\chromedriver.exe
+[TestNG] Running:
+  C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\test\resources\testng.xml
+
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+User navigation to login page started
+User navigation to login page started
+User navigation to login page complete
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+[TestNG] Running:
+  C:\Users\srinjoy_sur\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[TestNG] Running:
+  C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\test\resources\testng.xml
+
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+[TestNG] Running:
+  C:\Users\srinjoy_sur\Desktop\Frameworks\Jhipster-Testing-Framework\src\test\resources\testng.xml
+
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Using msedgedriver 135.0.3179.73 (resolved driver for Edge 135)
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
+Exporting webdriver.edge.driver as C:\Users\srinjoy_sur\.cache\selenium\msedgedriver\win64\135.0.3179.73\msedgedriver.exe
